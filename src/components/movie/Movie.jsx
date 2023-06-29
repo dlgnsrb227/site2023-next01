@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
-const Movie = () => {
+const Movie = (props) => {
   return (
-    <section id="movieSection" className="movie__wrap section">
+    <section id="movieSection" className={props.attr}>
       <div className="movie__inner container">
         <div className="movie__text">
           <h3>추천 movie</h3>
