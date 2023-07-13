@@ -918,7 +918,8 @@ textarea {
   margin-left: 100px !important;
 }
 .header__wrap {
-  box-shadow: 0 0 20px 10px #dfdfdf;
+  background-color: #158053;
+  box-shadow: 0 0 20px 10px #03442960;
   position: relative;
   z-index: 100;
 }
@@ -934,6 +935,7 @@ textarea {
   font-weight: 900;
   margin: 5px 5px 0;
   padding: 5px 5px 0;
+  color: aliceblue;
 }
 .header__inner .header__logo a em {
   font-weight: 500;
@@ -951,6 +953,7 @@ textarea {
   margin: 2px;
   padding: 10px;
   position: relative;
+  color: aliceblue;
 }
 .header__inner .header__nav ul li a:before {
   background-color: #666;
@@ -1374,6 +1377,83 @@ textarea {
 .unsplash__inner .unsplash__item > div img {
   border-radius: 20px;
   width: 100%;
+}
+.unsplash__wrap {
+  overflow: hidden;
+}
+
+.unsplash__inner {
+  height: 600px;
+}
+.unsplash__inner .unsplash__text > h3 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.unsplash__inner .unsplash__text > p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.unsplash__inner .unsplash__text > a {
+  border-radius: 30px;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.unsplash__inner .unsplash__item {
+  width: 200%;
+  display: flex;
+  position: absolute;
+}
+.unsplash__inner .unsplash__item > div {
+  margin-right: 20px;
+  width: 400px;
+}
+.unsplash__inner .unsplash__item > div img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.unsplash__tag div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.unsplash__tag div button {
+  border: 1px solid #bfc0c5;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.unsplash__cont ul {
+  column-count: 4;
+}
+.unsplash__cont ul li {
+  margin-bottom: 20px;
+}
+
+.unsplash__search {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.unsplash__search input {
+  border: 1px solid #e8ecf2;
+  font-size: 16px;
+  padding: 10px 20px;
+  min-width: 300px;
+  margin-right: 10px;
+}
+.unsplash__slider {
+  margin-bottom: 100px;
+}
+.unsplash__slider .swiper {
+  width: 300px;
+  height: 300px;
+}
+.unsplash__slider .swiper img {
+  width: 100%;
+  height: 100%;
 }
 .movie__wrap {
   overflow: hidden;
